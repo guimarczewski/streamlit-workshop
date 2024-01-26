@@ -55,7 +55,7 @@ def main():
     df = run_query(query, engine)
 
 def main():
-    st.title("Dashboard de Preços de Livros")
+    st.title("Dashboard de Preços")
 
     engine = connect_to_db()
     query = "SELECT DISTINCT titulo, preco FROM produtos ORDER BY preco DESC"
