@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "streamlit-workshop"
+version = "0.1.0"
+description = ""
+authors = ["guimarczewski <guimarczewski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.3"
+openpyxl = "^3.1.2"
+pandas = "^2.2.0"
+plotly = "^5.18.0"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.25"
+streamlit = "^1.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
